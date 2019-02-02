@@ -1,0 +1,121 @@
+With two-way classifier
+
+BOW
+
+============
+Results				 
+============
+FAVOR     precision: 0.1984 recall: 0.2137 f-score: 0.2058
+AGAINST   precision: 0.6364 recall: 0.1781 f-score: 0.2783
+------------
+Macro F: 0.2420
+
+
+
+Autoencoder, target only
+
+============
+Results	
+			 
+============
+FAVOR     precision: 0.2021 recall: 0.1624 f-score: 0.1801
+AGAINST   precision: 0.6387 recall: 0.2519 f-score: 0.3613
+------------
+Macro F: 0.2707
+
+
+
+Autoencoder, target + tweet (not cross)
+
+============
+Results				 
+============
+FAVOR     precision: 0.0000 recall: 0.0000 f-score: 0.0000
+AGAINST   precision: 0.6146 recall: 0.6209 f-score: 0.6177
+------------
+Macro F: 0.3089
+
+
+
+Autoencoder, target + BOW
+
+============
+Results				 
+============
+FAVOR     precision: 0.1984 recall: 0.2137 f-score: 0.2058
+AGAINST   precision: 0.6330 recall: 0.1756 f-score: 0.2749
+------------
+Macro F: 0.2403
+
+
+
+With three-way classifier
+
+BOW
+
+============
+Results				 
+============
+FAVOR     precision: 0.2366 recall: 0.2650 f-score: 0.2500
+AGAINST   precision: 0.6557 recall: 0.2036 f-score: 0.3107
+------------
+Macro F: 0.2803
+
+
+Autoencoder, target
+
+============
+Results				 
+============
+FAVOR     precision: 0.2000 recall: 0.1111 f-score: 0.1429
+AGAINST   precision: 0.6024 recall: 0.5165 f-score: 0.5562
+------------
+Macro F: 0.3495
+
+
+
+Autoencoder, target + BOW
+
+============
+Results				 
+============
+FAVOR     precision: 0.2366 recall: 0.2650 f-score: 0.2500
+AGAINST   precision: 0.6557 recall: 0.2036 f-score: 0.3107
+------------
+Macro F: 0.2803
+
+
+
+Autoencoder, target + tweet (not cross)
+
+============
+Results				 
+============
+FAVOR     precision: 0.0000 recall: 0.0000 f-score: 0.0000
+AGAINST   precision: 0.5712 recall: 1.0000 f-score: 0.7271
+------------
+Macro F: 0.3636
+
+
+
+BOW 3-way + targetInTweet + emoticons
+
+============
+Results
+============
+FAVOR     precision: 0.3014 recall: 0.1880 f-score: 0.2316
+AGAINST   precision: 0.6246 recall: 0.4911 f-score: 0.5499
+------------
+Macro F: 0.3907
+
+
+
+BOW 3-way + targetInTwet + emoticons + affect
+
+============
+Results
+============
+FAVOR     precision: 0.3056 recall: 0.1880 f-score: 0.2328
+AGAINST   precision: 0.6238 recall: 0.4936 f-score: 0.5511
+------------
+Macro F: 0.3920
